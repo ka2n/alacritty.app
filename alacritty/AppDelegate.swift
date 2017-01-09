@@ -10,18 +10,39 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-    @IBOutlet weak var window: NSWindow!
-
+    var tasks = DispatchGroup()
+    
+    var atomicQueue = DispatchQueue(label: "com.ktmtt.alacritty.atomic")
+    var exitHandlerRegistered = false
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        launchShell()
+    }
+
+    func applicationDidBecomeActive(_ notification: Notification) {
+        launchShell()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
 
-
+    func launchShell() {
+        tasks.enter()
+        let task = Process()
+        task.launchPath = "/usr/local/bin/alacritty"
+        task.launch()
+        task.terminationHandler = { [unowned self] _ in
+            self.tasks.leave()
+        }
+        
+        atomicQueue.sync {
+            if !exitHandlerRegistered {
+                exitHandlerRegistered = true
+                tasks.notify(queue: DispatchQueue.main) { [unowned self] in
+                    NSApplication.shared().terminate(self)
+                }
+            }
+        }
+    }
 }
-
