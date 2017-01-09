@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC863B181E23AE9600F0F7CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC863B171E23AE9600F0F7CE /* AppDelegate.swift */; };
+		FC863B1A1E23AE9600F0F7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC863B191E23AE9600F0F7CE /* Assets.xcassets */; };
+		FC863B1D1E23AE9600F0F7CE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC863B1B1E23AE9600F0F7CE /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC863B141E23AE9600F0F7CE /* alacritty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alacritty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC863B171E23AE9600F0F7CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC863B191E23AE9600F0F7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC863B1C1E23AE9600F0F7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FC863B1E1E23AE9600F0F7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC863B111E23AE9500F0F7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC863B0B1E23AE9500F0F7CE = {
+			isa = PBXGroup;
+			children = (
+				FC863B161E23AE9600F0F7CE /* alacritty */,
+				FC863B151E23AE9600F0F7CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC863B151E23AE9600F0F7CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC863B141E23AE9600F0F7CE /* alacritty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC863B161E23AE9600F0F7CE /* alacritty */ = {
+			isa = PBXGroup;
+			children = (
+				FC863B171E23AE9600F0F7CE /* AppDelegate.swift */,
+				FC863B191E23AE9600F0F7CE /* Assets.xcassets */,
+				FC863B1B1E23AE9600F0F7CE /* MainMenu.xib */,
+				FC863B1E1E23AE9600F0F7CE /* Info.plist */,
+			);
+			path = alacritty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC863B131E23AE9500F0F7CE /* alacritty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC863B211E23AE9600F0F7CE /* Build configuration list for PBXNativeTarget "alacritty" */;
+			buildPhases = (
+				FC863B101E23AE9500F0F7CE /* Sources */,
+				FC863B111E23AE9500F0F7CE /* Frameworks */,
+				FC863B121E23AE9500F0F7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alacritty;
+			productName = alacritty;
+			productReference = FC863B141E23AE9600F0F7CE /* alacritty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC863B0C1E23AE9500F0F7CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Katsuma Ito";
+				TargetAttributes = {
+					FC863B131E23AE9500F0F7CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9J5639D9XF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC863B0F1E23AE9500F0F7CE /* Build configuration list for PBXProject "alacritty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC863B0B1E23AE9500F0F7CE;
+			productRefGroup = FC863B151E23AE9600F0F7CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC863B131E23AE9500F0F7CE /* alacritty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC863B121E23AE9500F0F7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC863B1A1E23AE9600F0F7CE /* Assets.xcassets in Resources */,
+				FC863B1D1E23AE9600F0F7CE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC863B101E23AE9500F0F7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC863B181E23AE9600F0F7CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC863B1B1E23AE9600F0F7CE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC863B1C1E23AE9600F0F7CE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC863B1F1E23AE9600F0F7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC863B201E23AE9600F0F7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		FC863B221E23AE9600F0F7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9J5639D9XF;
+				INFOPLIST_FILE = alacritty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktmtt.alacritty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FC863B231E23AE9600F0F7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9J5639D9XF;
+				INFOPLIST_FILE = alacritty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktmtt.alacritty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC863B0F1E23AE9500F0F7CE /* Build configuration list for PBXProject "alacritty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC863B1F1E23AE9600F0F7CE /* Debug */,
+				FC863B201E23AE9600F0F7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC863B211E23AE9600F0F7CE /* Build configuration list for PBXNativeTarget "alacritty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC863B221E23AE9600F0F7CE /* Debug */,
+				FC863B231E23AE9600F0F7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC863B0C1E23AE9500F0F7CE /* Project object */;
+}
